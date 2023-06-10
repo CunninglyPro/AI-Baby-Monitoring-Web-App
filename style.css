@@ -1,0 +1,35 @@
+body {
+    background: #40E0D0;
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+#status, #baby, #note {
+    font-size: 18px;
+}
+
+#note {
+    background-color: orange;
+    width: 26%;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+#baby {
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+canvas {
+    border: 10px ridge rgb(49, 47, 179);
+    border-radius: 15px;
+    margin-top: 85px;
+}
